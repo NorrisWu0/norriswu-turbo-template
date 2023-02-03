@@ -1,5 +1,11 @@
 {
-  "extends": "tsconfig/react-library.json",
-  "include": ["."],
+  "extends": "@norriswu/config-ts/react-library",
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@src/*": ["./src/*"]
+    }
+  },
+  "include": [".", "./src/types/svg.d.ts"],
   "exclude": ["dist", "build", "node_modules"]
 }

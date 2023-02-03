@@ -1,19 +1,44 @@
 {
-  "name": "ui",
+  "name": "@norriswu/ui",
   "version": "0.0.0",
   "main": "./index.tsx",
   "types": "./index.tsx",
   "license": "MIT",
   "scripts": {
-    "lint": "TIMING=1 eslint \"**/*.ts*\""
+    "lint": "TIMING=1 eslint \"**/*.ts*\"",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook",
+    "type-check": "tsc --project tsconfig.json --pretty --noEmit",
+    "test": "jest --colors",
+    "test:watch": "jest --colors --watch",
+    "test:cov": "jest --coverage --colors"
   },
   "devDependencies": {
-    "@types/react": "^17.0.37",
-    "@types/react-dom": "^17.0.11",
+    "@babel/core": "^7.20.2",
+    "@chakra-ui/react": "^2.4.1",
+    "@chakra-ui/storybook-addon": "^4.0.13",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@norriswu/config-eslint": "*",
+    "@norriswu/config-jest": "*",
+    "@norriswu/config-ts": "*",
+    "@storybook/addon-actions": "^6.5.13",
+    "@storybook/addon-essentials": "^6.5.13",
+    "@storybook/addon-interactions": "^6.5.13",
+    "@storybook/addon-links": "^6.5.13",
+    "@storybook/builder-webpack5": "^6.5.13",
+    "@storybook/manager-webpack5": "^6.5.13",
+    "@storybook/react": "^6.5.13",
+    "@storybook/testing-library": "^0.0.13",
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "babel-loader": "^8.3.0",
     "eslint": "^7.32.0",
     "eslint-config-custom": "*",
+    "framer-motion": "^7.6.7",
+    "next": "^13.1.6",
     "react": "^18.2.0",
-    "tsconfig": "*",
     "typescript": "^4.5.2"
-  }
+  },
+  "dependencies": {}
 }

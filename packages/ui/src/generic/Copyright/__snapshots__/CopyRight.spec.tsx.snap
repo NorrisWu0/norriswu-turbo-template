@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CopyRight should match snapshot 1`] = `
+<div>
+  <div>
+    <a
+      href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      By 
+      <img
+        alt="Vercel Logo"
+        class="chakra-image css-gdnsru"
+      />
+    </a>
+  </div>
+</div>
+`;

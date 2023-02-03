@@ -3,17 +3,22 @@
   "version": "0.0.0",
   "private": true,
   "workspaces": [
-    "apps/*",
+    "_apps/*",
+    "_services/*",
     "packages/*"
   ],
   "scripts": {
     "build": "turbo run build",
-    "dev": "turbo run dev --parallel",
+    "storybook": "turbo run storybook",
+    "admin:dev": "turbo run dev --filter=admin --filter=admin-api-gateway",
+    "client:dev": "turbo run dev --filter=client --filter=client-api-gateway",
     "lint": "turbo run lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "test": "turbo run test",
+    "test:cov": "turbo run test:cov"
   },
   "devDependencies": {
-    "eslint-config-custom": "*",
+    "@norriswu/config-eslint": "*",
     "prettier": "latest",
     "turbo": "latest"
   },
