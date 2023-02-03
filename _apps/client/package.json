@@ -1,0 +1,33 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "type-check": "tsc --project tsconfig.json --pretty --noEmit",
+    "test": "jest --colors",
+    "test:watch": "jest  --colors --watch",
+    "test:cov": "jest --coverage --colors"
+  },
+  "dependencies": {
+    "@next/font": "13.1.6",
+    "@norriswu/ui": "*",
+    "next": "13.1.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@norriswu/config-eslint": "*",
+    "@norriswu/config-jest": "*",
+    "@types/node": "18.11.18",
+    "@types/react": "18.0.27",
+    "@types/react-dom": "18.0.10",
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.4",
+    "typescript": "4.9.5"
+  }
+}

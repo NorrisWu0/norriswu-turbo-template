@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LinkCard should render 1`] = `
+<div>
+  <a
+    class="chakra-link css-kyqrfw"
+    href=""
+    rel="noopener noreferrer"
+    role="group"
+    target="_blank"
+  >
+    <h2
+      class="chakra-heading css-5suxjh"
+    >
+      test title
+       
+      <span
+        class="chakra-text css-1xql7aj"
+      >
+        -&gt;
+      </span>
+    </h2>
+    <p
+      class="chakra-text css-2juig4"
+    >
+      test description
+    </p>
+  </a>
+</div>
+`;

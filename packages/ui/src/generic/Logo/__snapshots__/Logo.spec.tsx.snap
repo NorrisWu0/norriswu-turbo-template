@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Logo should render 1`] = `
+<div>
+  <div
+    class="css-1fkujnx"
+  >
+    <img
+      alt="Next.js Logo"
+      class="chakra-image css-15qdsdj"
+      style="position: relative; filter: invert(1) drop-shadow(0 0 0.3rem #ffffff70);"
+    />
+    <div
+      class="css-m6pk5v"
+    >
+      <img
+        alt="13"
+        class="chakra-image css-50kt1r"
+        style="filter: invert(1) drop-shadow(0 0 0.3rem #ffffff70);"
+      />
+    </div>
+  </div>
+</div>
+`;

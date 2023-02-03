@@ -8,8 +8,30 @@
     "lint": {
       "outputs": []
     },
+    "storybook": {},
     "dev": {
-      "cache": false
+      "cache": false,
+      "persistent": true
+    },
+    "test": {
+      "inputs": [
+        "src/**/*.tsx",
+        "src/**/*.ts",
+        "src/**/*.spec.tsx",
+        "src/**/*.spec.ts",
+        "test/**/*.tsx",
+        "test/**/*.ts"
+      ]
+    },
+    "test:cov": {
+      "inputs": [
+        "src/**/*.tsx",
+        "src/**/*.ts",
+        "src/**/*.spec.tsx",
+        "src/**/*.spec.ts",
+        "test/**/*.tsx",
+        "test/**/*.ts"
+      ]
     }
   }
 }

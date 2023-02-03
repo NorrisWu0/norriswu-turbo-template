@@ -1,0 +1,160 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Admin page should match snapshot 1`] = `
+<div>
+  <main
+    class="main"
+  >
+    <div
+      class="description"
+    >
+      <p>
+        Get started by editing 
+        <code
+          class="chakra-text css-cjo7mn"
+        >
+          src/pages/index.tsx
+        </code>
+      </p>
+      <div>
+        <a
+          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          By 
+          <img
+            alt="Vercel Logo"
+            class="chakra-image css-gdnsru"
+            src="[object Object]"
+          />
+        </a>
+      </div>
+    </div>
+    <div
+      class="css-1fkujnx"
+    >
+      <img
+        alt="Next.js Logo"
+        class="chakra-image css-15qdsdj"
+        src="[object Object]"
+        style="position: relative; filter: invert(1) drop-shadow(0 0 0.3rem #ffffff70);"
+      />
+      <div
+        class="css-m6pk5v"
+      >
+        <img
+          alt="13"
+          class="chakra-image css-50kt1r"
+          src="[object Object]"
+          style="filter: invert(1) drop-shadow(0 0 0.3rem #ffffff70);"
+        />
+      </div>
+    </div>
+    <div
+      class="className"
+    >
+      <div
+        class="grid"
+      >
+        <a
+          class="chakra-link css-kyqrfw"
+          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          rel="noopener noreferrer"
+          role="group"
+          target="_blank"
+        >
+          <h2
+            class="chakra-heading css-5suxjh"
+          >
+            Docs
+             
+            <span
+              class="chakra-text css-1xql7aj"
+            >
+              -&gt;
+            </span>
+          </h2>
+          <p
+            class="chakra-text css-2juig4"
+          >
+            Find in-depth information about Next.js features and API.
+          </p>
+        </a>
+        <a
+          class="chakra-link css-kyqrfw"
+          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          rel="noopener noreferrer"
+          role="group"
+          target="_blank"
+        >
+          <h2
+            class="chakra-heading css-5suxjh"
+          >
+            Learn
+             
+            <span
+              class="chakra-text css-1xql7aj"
+            >
+              -&gt;
+            </span>
+          </h2>
+          <p
+            class="chakra-text css-2juig4"
+          >
+            Learn about Next.js in an interactive course with quizzes!
+          </p>
+        </a>
+        <a
+          class="chakra-link css-kyqrfw"
+          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          rel="noopener noreferrer"
+          role="group"
+          target="_blank"
+        >
+          <h2
+            class="chakra-heading css-5suxjh"
+          >
+            Templates
+             
+            <span
+              class="chakra-text css-1xql7aj"
+            >
+              -&gt;
+            </span>
+          </h2>
+          <p
+            class="chakra-text css-2juig4"
+          >
+            Discover and deploy boilerplate example Next.js projects.
+          </p>
+        </a>
+        <a
+          class="chakra-link css-kyqrfw"
+          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          rel="noopener noreferrer"
+          role="group"
+          target="_blank"
+        >
+          <h2
+            class="chakra-heading css-5suxjh"
+          >
+            Deploy
+             
+            <span
+              class="chakra-text css-1xql7aj"
+            >
+              -&gt;
+            </span>
+          </h2>
+          <p
+            class="chakra-text css-2juig4"
+          >
+            Instantly deploy your Next.js site to a shareable URL with Vercel.
+          </p>
+        </a>
+      </div>
+    </div>
+  </main>
+</div>
+`;
